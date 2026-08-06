@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#7b2ff7" />
+  <title>¡Estás invitad@! 🎉</title>
+  <meta name="description" content="Te invito a celebrar un año más — Fiesta temática de Pelucas 🎊" />
+
+  <!-- Open Graph para compartir por WhatsApp / redes -->
+  <meta property="og:title" content="¡Estás invitad@! 🎉 Fiesta temática de Pelucas" />
+  <meta property="og:description" content="Viernes 21 de agosto · 3:00 pm · Santa Ana Tlacotenco. ¡Trae tu peluca de colores!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/photo1.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Confeti decorativo -->
+  <div class="confetti" aria-hidden="true"></div>
+
+  <main class="card">
+    <header class="hero">
+      <div class="wigs" aria-hidden="true">
+        <span>💇‍♀️</span><span>🎀</span><span>💜</span><span>💇</span><span>🌈</span>
+      </div>
+      <p class="eyebrow">Te invito a celebrar</p>
+      <h1 class="title">Un año más</h1>
+      <p class="subtitle">🎉 ¡Y quiero que lo festejes conmigo! 🎉</p>
+    </header>
+
+    <section class="gallery" aria-label="Fotos de la festejada">
+      <figure class="photo photo--main">
+        <img src="images/photo1.jpeg" alt="Festejada" loading="lazy" />
+      </figure>
+      <figure class="photo photo--secondary">
+        <img src="images/photo2.jpeg" alt="Festejada" loading="lazy" />
+      </figure>
+    </section>
+
+    <section class="details" aria-label="Detalles del evento">
+      <div class="detail">
+        <span class="detail__icon">🗓️</span>
+        <div class="detail__text">
+          <span class="detail__label">Día</span>
+          <span class="detail__value">Viernes 21 de agosto</span>
+        </div>
+      </div>
+
+      <div class="detail">
+        <span class="detail__icon">⏰</span>
+        <div class="detail__text">
+          <span class="detail__label">Hora</span>
+          <span class="detail__value">3:00 pm</span>
+        </div>
+      </div>
+
+      <div class="detail">
+        <span class="detail__icon">📍</span>
+        <div class="detail__text">
+          <span class="detail__label">Ubicación</span>
+          <span class="detail__value">Prolongación Ignacio Zaragoza s/n, Bo. San Marcos, Santa Ana Tlacotenco</span>
+          <a
+            class="detail__map"
+            href="https://www.google.com/maps/search/?api=1&query=Prolongaci%C3%B3n%20Ignacio%20Zaragoza%20San%20Marcos%20Santa%20Ana%20Tlacotenco"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Ver en el mapa →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="theme" aria-label="Tema de la fiesta">
+      <div class="theme__badge">✨ Fiesta temática ✨</div>
+      <h2 class="theme__title">💜 Pelucas 💜</h2>
+      <p class="theme__note">Trae tu peluca de <strong>colores y formas</strong> 🌈</p>
+    </section>
+
+    <footer class="cta">
+      <p class="cta__text">¡TE ESPERAMOS!</p>
+      <div class="wigs wigs--footer" aria-hidden="true">
+        <span>🎊</span><span>💇‍♀️</span><span>🥳</span><span>💇</span><span>🎊</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
