@@ -1,93 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#7b2ff7" />
-  <title>¡Estás invitad@! 🎉</title>
-  <meta name="description" content="Te invito a celebrar un año más — Fiesta temática de Pelucas 🎊" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#29231f" />
+    <meta
+      name="description"
+      content="Invitación para el sábado 12 de diciembre de 2026."
+    />
+    <title>Invitación · 12 de diciembre de 2026</title>
 
-  <!-- Open Graph para compartir por WhatsApp / redes -->
-  <meta property="og:title" content="¡Estás invitad@! 🎉 Fiesta temática de Pelucas" />
-  <meta property="og:description" content="Viernes 21 de agosto · 3:00 pm · Santa Ana Tlacotenco. ¡Trae tu peluca de colores!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/photo1.jpeg" />
+    <meta property="og:title" content="Invitación · 12 de diciembre de 2026" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="invitation">
+      <div class="invitation__rule" aria-hidden="true"></div>
 
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Confeti decorativo -->
-  <div class="confetti" aria-hidden="true"></div>
+      <header class="hero">
+        <svg
+          class="hero__grill"
+          viewBox="0 0 120 92"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M43 40c-8-11 5-13 1-24 13 8 15 18 7 26m16-2c-7-10 5-14 3-24 13 10 14 19 5 27"
+            class="grill__flame"
+          />
+          <path d="M23 45h74l-8 30H31l-8-30Z" class="grill__bowl" />
+          <path d="M28 52h64M31 61h58M38 75l-5 12m47-12 5 12" class="grill__line" />
+          <path d="m42 45 8 7m8-7 8 7m8-7 8 7" class="grill__food" />
+        </svg>
+        <p class="eyebrow">
+          ATENCIÓN, BANDA, PLEBES, CHAVORRUCOS Y DEMÁS ESCORIA DE CONFIANZA
+        </p>
+        <p class="hero__intro">
+          Se les convoca a la
+        </p>
+        <h1 class="hero__title">GRAN CARNITA ASADA DEL AÑO</h1>
+        <p class="hero__subtitle">
+          un magno evento de dudosa reputación que tendrá lugar en tierras
+          sagradas de:
+        </p>
+      </header>
 
-  <main class="card">
-    <header class="hero">
-      <div class="wigs" aria-hidden="true">
-        <span>💇‍♀️</span><span>🎀</span><span>💜</span><span>💇</span><span>🌈</span>
+      <div class="divider" aria-hidden="true">
+        <span></span>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2c1 5-5 6-3 11 1 2 3 2 3 5 0-3 4-4 4-8 3 4 2 10-1 12-4 3-10 0-10-5 0-6 7-8 7-15Z" />
+        </svg>
+        <span></span>
       </div>
-      <p class="eyebrow">Te invito a celebrar</p>
-      <h1 class="title">Un año más</h1>
-      <p class="subtitle">🎉 ¡Y quiero que lo festejes conmigo! 🎉</p>
-    </header>
 
-    <section class="gallery" aria-label="Fotos de la festejada">
-      <figure class="photo photo--main">
-        <img src="images/photo1.jpeg" alt="Festejada" loading="lazy" />
-      </figure>
-      <figure class="photo photo--secondary">
-        <img src="images/photo2.jpeg" alt="Festejada" loading="lazy" />
-      </figure>
-    </section>
-
-    <section class="details" aria-label="Detalles del evento">
-      <div class="detail">
-        <span class="detail__icon">🗓️</span>
-        <div class="detail__text">
-          <span class="detail__label">Día</span>
-          <span class="detail__value">Viernes 21 de agosto</span>
+      <section class="event-details" aria-label="Detalles del evento">
+        <div class="detail">
+          <span class="detail__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
+          </span>
+          <div class="detail__content">
+            <p class="detail__label">Ubicación</p>
+            <a
+              class="map-link"
+              href="https://maps.app.goo.gl/zYMU5uiSZXAqPEfV7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir ubicación en Google Maps"
+            >Tulyehualco, CDMX</a>
+          </div>
         </div>
-      </div>
-
-      <div class="detail">
-        <span class="detail__icon">⏰</span>
-        <div class="detail__text">
-          <span class="detail__label">Hora</span>
-          <span class="detail__value">3:00 pm</span>
+        <div class="detail">
+          <p class="detail__value">📅 <strong>12 DE DICIEMBRE</strong></p>
         </div>
-      </div>
-
-      <div class="detail">
-        <span class="detail__icon">📍</span>
-        <div class="detail__text">
-          <span class="detail__label">Ubicación</span>
-          <span class="detail__value">Prolongación Ignacio Zaragoza s/n, Bo. San Marcos, Santa Ana Tlacotenco</span>
-          <a
-            class="detail__map"
-            href="https://www.google.com/maps/search/?api=1&query=Prolongaci%C3%B3n%20Ignacio%20Zaragoza%20San%20Marcos%20Santa%20Ana%20Tlacotenco"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Ver en el mapa →</a>
+        <div class="detail">
+          <p class="detail__value">🕓 <strong>A PARTIR DE LAS 4:00 PM</strong></p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="theme" aria-label="Tema de la fiesta">
-      <div class="theme__badge">✨ Fiesta temática ✨</div>
-      <h2 class="theme__title">💜 Pelucas 💜</h2>
-      <p class="theme__note">Trae tu peluca de <strong>colores y formas</strong> 🌈</p>
-    </section>
+      <section class="invitation-section" aria-labelledby="what-heading">
+        <h2 id="what-heading">🥩🌮 ¿QUÉ HABRÁ?</h2>
+        <ul class="feature-list">
+          <li>Carnita asada pa' atascarse como si mañana nos fueran a quitar el SAT.</li>
+          <li>Bebidas espirituosas para hidratar el alma y deshidratar el sentido común.</li>
+          <li>Chisme de calidad premium, carrilla sin piedad y convivencia entre seres humanos cuestionables.</li>
+          <li>Y, por supuesto, una actividad cultural de primerísimo nivel: <strong>EL TORNEO INTERNACIONAL DE POWERPOINTS DE TEMÁTICA LIBRE.</strong></li>
+        </ul>
+      </section>
 
-    <footer class="cta">
-      <p class="cta__text">¡TE ESPERAMOS!</p>
-      <div class="wigs wigs--footer" aria-hidden="true">
-        <span>🎊</span><span>💇‍♀️</span><span>🥳</span><span>💇</span><span>🎊</span>
-      </div>
-    </footer>
-  </main>
+      <section class="invitation-section" aria-labelledby="contest-heading">
+        <h2 id="contest-heading">🎤 GRAN CONCURSO DE POWERPOINTS:</h2>
+        <p>
+          Cada participante deberá preparar una presentación sobre el tema que le salga de los mismísimos.
+        </p>
+        <p>
+          Pueden mandar su PowerPoint antes de la fecha a el email
+          <a href="mailto:bryanmejia64@gmail.com">bryanmejia64@gmail.com</a>,
+          o llevarla en USB el día del evento.
+        </p>
 
-  <script src="script.js"></script>
-</body>
+        <h3>Reglas del honorable certamen:</h3>
+        <ul class="feature-list">
+          <li>Tema completamente libre. Entre más absurdo, innecesario o polémico, mejor.</li>
+          <li>Se puede participar individualmente o en parejas (máximo 2 personas, no estamos organizando una secta).</li>
+          <li>Hay que venir a exponer con seguridad, aunque el contenido sea una reverenda pendejada.</li>
+          <li>Se valorará la creatividad, el descaro, la capacidad de convencer y, sobre todo, la cantidad de estupideces defendidas con datos inventados pero convincentes.</li>
+        </ul>
+      </section>
+
+      <section class="invitation-section" aria-labelledby="prizes-heading">
+        <h2 id="prizes-heading">🏆 LOS PREMIOS DE DUDOSA PROCEDENCIA:</h2>
+        <ol class="prize-list">
+          <li>🥇 <strong>El premio CONACYT de la Pendejada:</strong> para quien presente la tesis más pendeja con una seguridad digna de un Premio Nobel.</li>
+          <li>🥈 <strong>Premio a la Vergüenza Nacional:</strong> para la presentación que haga cuestionarnos por qué seguimos teniendo contacto con su autor.</li>
+          <li>🥉 <strong>Premio a la Propaganda del Siglo:</strong> para quien logre convencernos de la mentira más descarada.</li>
+          <li>🏅 <strong>Premio al PowerPoint de los 3 Pesos:</strong> para la presentación visualmente más culera, hecha con Paint, WordArt y el orgullo intacto.</li>
+          <li>💀 <strong>Premio al Chairo del Excel:</strong> para quien utilice más gráficas, estadísticas y datos absolutamente innecesarios para defender una mamada.</li>
+        </ol>
+      </section>
+
+      <aside class="important-note" aria-labelledby="important-heading">
+        <h2 id="important-heading">⚠️ AVISO IMPORTANTE:</h2>
+        <p>
+          La asistencia es prácticamente obligatoria, la dignidad es opcional y las ganas de hacer el ridículo son requisito indispensable.
+        </p>
+        <p>
+          Vengan con hambre, sed, ganas de echar desmadre y, sobre todo, con su presentación preparada. Aquí no juzgamos a nadie… bueno, sí, pero con cariño y una cerveza en la mano.
+        </p>
+      </aside>
+
+      <footer class="closing">
+        <span class="closing__ornament" aria-hidden="true"></span>
+        <div>
+          <p class="closing__shout"><strong>QUE SE ARME EL DESMADRE.</strong></p>
+          <p>Nos vemos en Tulyehualco, bola de criaturas. 🥩🔥🍻</p>
+        </div>
+        <span class="closing__ornament" aria-hidden="true"></span>
+      </footer>
+
+      <p class="postscript">
+        <em>P.D. Si alguien pregunta si esto es un evento serio, la respuesta es: más serio que sus decisiones de vida, pero menos que sus deudas.</em>
+      </p>
+    </main>
+  </body>
 </html>

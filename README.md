@@ -1,6 +1,12 @@
-# Invitación 🎉
+# Invitación · Carnita asada
 
-Single page (mobile-first) para invitación de cumpleaños — fiesta temática de Pelucas.
+Invitación de una sola página, en español y adaptable a móviles, para una carnita
+asada el sábado 12 de diciembre de 2026 a las 4:00 pm. La ubicación se comparte
+únicamente mediante el enlace de Google Maps incluido en la invitación.
+
+La presentación usa HTML y CSS; no necesita JavaScript ni dependencias locales.
+Las fotografías de `images/` pertenecen a la versión anterior y se conservan,
+pero no se muestran en esta invitación.
 
 ## Ver localmente
 ```bash
