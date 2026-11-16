@@ -299,6 +299,23 @@ body {
   margin: 0;
 }
 
+.registration {
+  display: grid;
+  gap: 14px;
+}
+
+.registration h2 {
+  margin-bottom: 0;
+}
+
+.registration__link {
+  color: var(--terracotta-dark);
+  font-weight: 700;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  text-underline-offset: 3px;
+}
+
 .feature-list,
 .prize-list {
   margin: 0;
